@@ -1,0 +1,153 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\MicroservicesEcommerceProject\\Infotech.Services.PaymentAPI\\Infotech.Services.PaymentAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\MicroservicesEcommerceProject\\Infotech.Services.PaymentAPI\\Infotech.Services.PaymentAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\MicroservicesEcommerceProject\\Infotech.Services.PaymentAPI\\Infotech.Services.PaymentAPI.csproj",
+        "projectName": "Infotech.Services.PaymentAPI",
+        "projectPath": "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\MicroservicesEcommerceProject\\Infotech.Services.PaymentAPI\\Infotech.Services.PaymentAPI.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\MicroservicesEcommerceProject\\Infotech.Services.PaymentAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\MicroservicesEcommerceProject\\BtkAkademi.MessageBus\\BtkAkademi.MessageBus.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\MicroservicesEcommerceProject\\BtkAkademi.MessageBus\\BtkAkademi.MessageBus.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\MicroservicesEcommerceProject\\PaymentProcessor\\PaymentProcessor.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\MicroservicesEcommerceProject\\PaymentProcessor\\PaymentProcessor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\MicroservicesEcommerceProject\\PaymentProcessor\\PaymentProcessor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\MicroservicesEcommerceProject\\PaymentProcessor\\PaymentProcessor.csproj",
+        "projectName": "PaymentProcessor",
+        "projectPath": "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\MicroservicesEcommerceProject\\PaymentProcessor\\PaymentProcessor.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\MicroservicesEcommerceProject\\PaymentProcessor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

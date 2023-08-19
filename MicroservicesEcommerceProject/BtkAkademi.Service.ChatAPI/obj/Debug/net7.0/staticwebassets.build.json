@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EKzs3JJAYVchAlFymL0sMoeZgyn9KDbB2OjT9YRM0Nc=",
+  "Source": "BtkAkademi.Service.ChatAPI",
+  "BasePath": "_content/BtkAkademi.Service.ChatAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

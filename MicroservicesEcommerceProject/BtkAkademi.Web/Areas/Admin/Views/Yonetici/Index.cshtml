@@ -1,0 +1,100 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="text-center">
+
+    <div class="container">
+        <h2>Canlı Sohbet</h2>
+        <div id="lastOrders" class="row">
+        </div>
+    </div>
+    <hr />
+    <div class="form-group">
+        <p id="typingIndicator"></p>
+        <input type="text" class="form-control" id="name" placeholder="Adınızı Giriniz">
+        </br>
+        <input type="text" class="form-control" id="product" placeholder="Mesajınızı Giriniz">
+        </br>
+        <button onclick="createOrder();" class="btn btn-primary">Create Order</button>
+    </div>
+</div>
+
+<script src="~/js/signalr/signalr.js" type="text/javascript"></script>
+<script>
+
+    var isTyping = false;
+
+    (function setupConnection() {
+        var connection = new signalR.HubConnectionBuilder().withUrl("/orderHub").build();
+        console.log(connection);
+
+        connection.on("lastOrder", function (order) {
+            var newOrderNode = document.createElement("div");
+            newOrderNode.classList.add("col-lg-12");
+
+            var textnode = document.createTextNode(`${order.name} - ${order.product}`);
+            newOrderNode.appendChild(textnode);
+
+            var orderDiv = document.getElementById("lastOrders");
+            orderDiv.insertBefore(newOrderNode, orderDiv.lastChild);
+        });
+
+        let isCurrentlyTyping = false;
+
+        connection.on("ReceiveTypingNotification", (isTyping) => {
+            const typingIndicator = document.getElementById("typingIndicator");
+
+            if (isTyping) {
+                typingIndicator.innerText = "typing...";
+                isCurrentlyTyping = true;
+            } else if (isCurrentlyTyping) {
+                typingIndicator.innerText = "";
+                isCurrentlyTyping = false;
+            }
+        });
+
+        document.getElementById("product").addEventListener("input", (event) => {
+            const isTyping = event.target.value.length > 0;
+            connection.invoke("SendTypingNotification", isTyping);
+        });
+
+        document.addEventListener("click", () => {
+            const productInput = document.getElementById("product");
+            if (!productInput.contains(event.target)) {
+                const typingIndicator = document.getElementById("typingIndicator");
+                typingIndicator.innerText = "";
+                isCurrentlyTyping = false;
+            }
+
+            connection.invoke("SendTypingNotification", false);
+        });
+
+        connection.start().catch(err => console.error(err.toString())).then(response => console.log("connected"));
+    })();
+
+    function createOrder() {
+        let name = document.getElementById("name").value;
+        let product = document.getElementById("product").value;
+        fetch("/order", {
+            method: "POST",
+            body: JSON.stringify({
+                product,
+                name
+            }),
+            headers: {
+                'content-type': 'application/json'
+            }
+        }).then(response => console.log("order created"));
+
+        // Güncellenmiş ürünü SignalR aracılığıyla diğer pencerelere iletiyoruz
+        var connection = new signalR.HubConnectionBuilder().withUrl("/orderHub").build();
+
+
+        // Girilen ürün adını temizle
+        var productInput = document.getElementById("product");
+        productInput.value = "";
+    }
+
+</script>
