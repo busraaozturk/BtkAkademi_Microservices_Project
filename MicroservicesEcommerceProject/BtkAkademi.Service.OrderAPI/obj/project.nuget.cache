@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "kE7b+aZYJQX8kWcRoXbCUW8CLczsw4oFpK01GoELW+gUfHe+nx1bBwMUIeJsSzxyo5mBfwJ7e6bIzosL3UW43w==",
-  "success": false,
+  "dgSpecHash": "H8qCYp7SoAdVtG3lyRwiGyO+pQQqPzqE2DhTzgJQJbPjQ+qatPh4FMIX1SBLgdfw96S/LdaOFptWDVXhl0ETag==",
+  "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\MicroservicesEcommerceProject\\BtkAkademi.Service.OrderAPI\\BtkAkademi.Service.OrderAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
@@ -86,15 +86,5 @@
     "C:\\Users\\user\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\Integration\\BtkAkademi.MessageBus\\BtkAkademi.MessageBus.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\user\\Desktop\\kurs\\btkakademi\\8.gun\\Integration\\BtkAkademi.MessageBus\\BtkAkademi.MessageBus.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

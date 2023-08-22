@@ -17,7 +17,7 @@
         </br>
         <input type="text" class="form-control" id="product" placeholder="Mesajınızı Giriniz">
         </br>
-        <button onclick="createOrder();" class="btn btn-primary">Create Order</button>
+        <button onclick="createOrder();" class="btn btn-primary">Mesajı Gönder</button>
     </div>
 </div>
 
@@ -47,7 +47,7 @@
             const typingIndicator = document.getElementById("typingIndicator");
 
             if (isTyping) {
-                typingIndicator.innerText = "typing...";
+                typingIndicator.innerText = "yazıyor...";
                 isCurrentlyTyping = true;
             } else if (isCurrentlyTyping) {
                 typingIndicator.innerText = "";

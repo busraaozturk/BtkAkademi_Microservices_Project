@@ -1,14 +1,13 @@
-﻿
+﻿using IdentityModel;
 using BtkAkademi.Services.Identity.DbContexts;
 using BtkAkademi.Services.Identity.Models;
-using IdentityModel;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 
 namespace BtkAkademi.Services.Identity.Initilializer
 {
     public class DbInitializer : IDbInitializer
-    {
+    { 
         private readonly ApplicationDbContext _db;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;

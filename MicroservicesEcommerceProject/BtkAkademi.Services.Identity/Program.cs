@@ -1,11 +1,12 @@
-using BtkAkademi.Services.Identity;
-using BtkAkademi.Services.Identity.DbContext;
-using BtkAkademi.Services.Identity.Initializer;
+using Duende.IdentityServer.AspNetIdentity;
+using Duende.IdentityServer.Services;
+using BtkAkademi.Services.Identity.Initilializer;
 using BtkAkademi.Services.Identity.Models;
 using BtkAkademi.Services.Identity.Services;
-using Duende.IdentityServer.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using BtkAkademi.Services.Identity;
+using BtkAkademi.Services.Identity.DbContexts;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -53,7 +54,6 @@ using (var serviceScope = app.Services.CreateScope())
     var service = serviceScope.ServiceProvider.GetService<IDbInitializer>();
     service.Initialize();
 }
-
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(

@@ -5,11 +5,11 @@ C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAka
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Services.PaymentAPI\obj\Debug\net7.0\BtkAkademi.Services.PaymentAPI.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Services.PaymentAPI\obj\Debug\net7.0\BtkAkademi.Services.PaymentAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Services.PaymentAPI\obj\Debug\net7.0\BtkAkademi.Services.PaymentAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Services.PaymentAPI\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Services.PaymentAPI\bin\Debug\net7.0\appsettings.json
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Services.PaymentAPI\bin\Debug\net7.0\PaymentProcessor.deps.json
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Services.PaymentAPI\bin\Debug\net7.0\PaymentProcessor.runtimeconfig.json
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Services.PaymentAPI\bin\Debug\net7.0\PaymentProcessor.exe
+C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Services.PaymentAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Services.PaymentAPI\bin\Debug\net7.0\appsettings.json
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Services.PaymentAPI\bin\Debug\net7.0\BtkAkademi.Services.PaymentAPI.exe
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Services.PaymentAPI\bin\Debug\net7.0\BtkAkademi.Services.PaymentAPI.deps.json
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Services.PaymentAPI\bin\Debug\net7.0\BtkAkademi.Services.PaymentAPI.runtimeconfig.json

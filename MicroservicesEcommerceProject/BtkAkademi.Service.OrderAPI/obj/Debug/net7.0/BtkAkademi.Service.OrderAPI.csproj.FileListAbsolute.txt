@@ -1,10 +1,3 @@
-C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\BtkAkademi.Service.OrderAPI.csproj.AssemblyReference.cache
-C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\BtkAkademi.Service.OrderAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\BtkAkademi.Service.OrderAPI.AssemblyInfoInputs.cache
-C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\BtkAkademi.Service.OrderAPI.AssemblyInfo.cs
-C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\BtkAkademi.Service.OrderAPI.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\BtkAkademi.Service.OrderAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\BtkAkademi.Service.OrderAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\bin\Debug\net7.0\appsettings.json
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\bin\Debug\net7.0\BtkAkademi.Service.OrderAPI.exe
@@ -67,6 +60,13 @@ C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAka
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\bin\Debug\net7.0\BtkAkademi.MessageBus.dll
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\bin\Debug\net7.0\BtkAkademi.MessageBus.pdb
+C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\BtkAkademi.Service.OrderAPI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\BtkAkademi.Service.OrderAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\BtkAkademi.Service.OrderAPI.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\BtkAkademi.Service.OrderAPI.AssemblyInfo.cs
+C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\BtkAkademi.Service.OrderAPI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\BtkAkademi.Service.OrderAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\BtkAkademi.Service.OrderAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\staticwebassets\msbuild.BtkAkademi.Service.OrderAPI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.BtkAkademi.Service.OrderAPI.props
 C:\Users\user\Desktop\kurs\btkakademi\8.gun\MicroservicesEcommerceProject\BtkAkademi.Service.OrderAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BtkAkademi.Service.OrderAPI.props

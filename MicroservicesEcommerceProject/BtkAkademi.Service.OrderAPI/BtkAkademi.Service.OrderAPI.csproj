@@ -27,7 +27,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\Integration\BtkAkademi.MessageBus\BtkAkademi.MessageBus.csproj" />
+		<ProjectReference Include="..\BtkAkademi.MessageBus\BtkAkademi.MessageBus.csproj" />
 	</ItemGroup>
 
 </Project>
